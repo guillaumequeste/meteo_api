@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    background-image: url("clear.jpeg");
+    background-size: cover;
+}
+
+nav {
+    background-color: rgb(76, 44, 117);
+}
+
+@media screen and (max-width: 990px) {
+    nav {
+        background-color: white;
+    }
+}
+
+#meteo {
+    font-family: 'Lobster', sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+
+@media screen and (max-width: 990px) {
+    #meteo {
+        color: black;
+    }
+}
+
+a {
+    color: white !important;
+}
+
+@media screen and (max-width: 990px) {
+    a {
+        color: black !important;
+    }
+}
+
+.ville {
+    font-family: 'Merryweather Sans', sans-serif;
+    font-size: small;
+}
+
+h1 {
+    padding-top: 10vh;
+}
+
+.ville2 {
+    font-size: xx-large;
+    color: rgb(255, 187, 0);
+}
